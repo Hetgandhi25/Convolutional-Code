@@ -10,8 +10,6 @@
 - [📌 Project Overview](#-project-overview)
 - [✨ Features](#-features)
 - [🚀 Getting Started](#-getting-started)
-- [🎯 Usage](#-usage)
-- [📊 Results](#-results)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -48,30 +46,6 @@ git clone https://github.com/your-username/convolution-codes.git
 cd convolution-codes
 ```
 2️⃣ **Open MATLAB** and navigate to the project folder.
-3️⃣ **Run the main script**
-```matlab
-simulation
-```
-
----
-
-## 🎯 Usage
-
-Modify parameters inside `simulation.m` to customize your tests:
-```matlab
-snr_range = 0:0.5:10;  % Adjust SNR range
-rate = [1/2, 1/3];     % Code rates
-K = [3, 4, 6];         % Constraint lengths
-```
-Run `simulation.m` and check the results in the `results/` directory.
-
----
-
-## 📊 Results
-
-Generated graphs showcase **BER vs SNR** for different configurations. Example:
-
-![BER Curve](https://via.placeholder.com/600x300?text=BER+vs+SNR)
 
 ---
 
